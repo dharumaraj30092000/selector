@@ -1,0 +1,189 @@
+<!doctype html>
+<html>
+	<head>
+		<title>selectors</title>
+		<link rel="stylesheet" href="css/style.css">
+		<base href="https://www.w3schools.com/" target="_blank">
+	</head>
+	<body>
+	<!------ id-selector ------->
+	<h1>1.id-selector</h1>
+		<section class="id">
+			<div class="id-selector">
+				<p id="para1">Hello World!</p>
+				<p>This paragraph is not affected by the style.</p>
+			</div>
+		</section>
+	<!------- class-selector -------->
+	<h1>2.(i)class-selector</h1>
+		<section class="class">
+			<div class="class-selector">
+				<h1 class="center">Red and center-aligned heading</h1>
+				<p>Red and center-aligned paragraph.</p>
+				<!------- specific-class -------->
+				<h1>(ii)specific-class</h1>
+				<h1 class="specific-class">Red and center-aligned heading</h1>
+				<p class="specific-class">Red and center-aligned paragraph.</p>
+			</div>
+		</section>
+	 <!------- grouping-selector -------->
+	 <h1>3.grouping-selector</h1>
+		<section class="grouping">
+			<div class="grouping-selector">
+				<h3>Hello World!</h3>
+				<h4>Smaller heading!</h4>
+				<h5>This is a paragraph.</h5>
+			</div>
+		</section>
+	 <!------- grouping-selector -------->
+	 <h1>4.element-selector</h1>
+		<section class="element">
+			<div class="element-selector">
+				<h2><span>Hello World!</span></h3>
+			</div>
+		</section>
+	 <!------- descendant-selector -------->
+	 <h1>5.descendant-selector</h1>
+		<section class="descendant">
+			<div class="descendant-selector">
+				<div>
+					<p>Paragraph 1 in the div.</p>
+					<p>Paragraph 2 in the div.</p>
+					<section><p>Paragraph 3 in the div.</p></section>
+				</div>
+				<div>
+					<p>Paragraph 4. Not in a div.</p>
+					<p>Paragraph 5. Not in a div.</p>
+				</div>
+			</div>
+		</section>
+	 <!-------- child-selector -------->
+	 <!--<h1>6.child-selector</h1>
+	    <section class="child">
+			<div class="child-selector">
+				<div><p>Paragraph 1 in the div.</p></div>
+				<p>Paragraph 2 in the div.</p>
+				<section><p>Paragraph 3 in the div.</p></section>
+				<p>Paragraph 4. Not in a div.</p>
+				<div><p>Paragraph 5. Not in a div.</p></div>
+			</div>
+		</section>-->
+	 <!-------- adjacent-selector -------->
+	 <h1>7.adjacent-selector</h1>
+	    <section class="adjacent">
+			<div class="adjacent-selector">
+			  <p>Paragraph 1 in the div.</p>
+			  <p>Paragraph 2 in the div.</p>
+			</div>
+			<p>Paragraph 3. After a div.</p>
+			<p>Paragraph 4. After a div.</p>
+		</section>
+	 <!-------- general-sibling-selector -------->
+	 <h1>8.general-sibling-selector</h1>
+	    <section class="general-sibling">
+			<div class="general-sibling-selector">
+			  <p>Paragraph 1 in the div.</p>
+			  <p>Paragraph 2 in the div.</p>
+			</div>
+			<p>Paragraph 3. After a div.</p>
+			<p>Paragraph 4. After a div.</p>
+		</section>
+	<!-------- pseudo-class-selector -------->
+    <h1>9.pseudo-class-selector</h1>
+	    <section class="pesudo-class">
+			<div class="pesudo-class-selector">
+			    <p><b><a href="default.asp" target="https://www.w3schools.com/">This is a link</a></b></p>
+			</div>
+		</section>
+	 <!-------- pseudo-element-selector -------->
+	 <!-------- after --------->
+	 <h1>10.after</h1>
+	    <section class="after">
+			<div class="after-element">
+				<p>My name is</p>
+			</div>
+		</section>
+	 <!-------- before --------->
+	 <h1>11.before</h1>
+	    <section class="before">
+			<div class="before-element">
+				<p>Dharumaraj K</p>
+			</div>
+		</section>
+	 <!-------- first-letter --------->
+	 <h1>12.first-letter</h1>
+	    <section class="first-letter">
+			<div class="first-letter-element">
+				<p>Name:Dharumaraj K</p>
+			</div>
+		</section>
+	 <!-------- first-line --------->
+	 <h1>13.first-line</h1>
+	    <section class="first-line">
+			<div class="first-line-element">
+				<p>In the following example, the first letter of a paragraph will be red, in an xx-large font size. The rest of the first line will be blue, and in small-caps. The rest of the paragraph will be the default font size and color.</p>
+			</div>
+		</section>
+	 <!-------- mark --------->
+	 <h1>14.mark</h1>
+	    <section class="mark">
+			<div class="mark-selector">
+				<ul>
+				  <li>Coffee</li>
+				  <li>Tea</li>
+				  <li>Milk</li>
+				</ul>
+			</div>
+		</section>
+	 <!-------- attribute-selector --------->
+	 <!-------- target --------->
+	 <h1>15.target</h1>
+		 <section class="target">
+			 <a href="https://www.w3schools.com">w3schools.com</a>
+			 <a href="http://www.disney.com" target="_blank">disney.com</a>
+			 <a href="http://www.wikipedia.org" target="_top">wikipedia.org</a>
+		 </section>
+	<!-------- target_blank --------->
+	<h1>16.target_blank</h1>
+		 <section class="target-blank">
+			 <a href="https://www.w3schools.com">w3schools.com</a>
+			 <a href="http://www.disney.com" target="_blank">disney.com</a>
+			 <a href="http://www.wikipedia.org" target="_top">wikipedia.org</a>
+		 </section>
+	 <!-------- name="value" --------->
+	 <h1>17.name="tiled"</h1>
+		 <section class="name-value">
+			 <a title="no yes" href="https://www.w3schools.com">w3schools.com</a>
+			 <a title="yes no" href="http://www.disney.com" target="_blank">disney.com</a>
+			 <a title="no" href="http://www.wikipedia.org" target="_top">wikipedia.org</a>
+		 </section>
+	 <!-------- class="value" --------->
+	 <h1>18.class="pipe"</h1>
+	     <section class="class-value">
+			 <h1 class="top-header">Welcome</h1>
+			 <p class="top-text">Hello world!</p>
+			 <p class="topcontent">Are you learning CSS?</p>
+		 </section>
+	 <!-------- class="value" --------->
+	 <h1>19.class="character"</h1>
+	     <section class="class-value-1">
+			 <h1 class="top-header">Welcome</h1>
+			 <p class="top-text">Hello world!</p>
+			 <p class="topcontent">Are you learning CSS?</p>
+		 </section>
+	 <!-------- class="value" --------->
+	 <h1>19.class="dolor"</h1>
+	     <section class="class-value-2">
+			 <h1 class="headertop">Welcome</h1>
+			 <p class="text-top">Hello world!</p>
+			 <p class="content_top">Are you learning CSS?</p>
+		 </section>
+	 <!-------- class="value" --------->
+	 <h1>20.class="asteric"</h1>
+	     <section class="class-value-3">
+			 <h1 class="test">Welcome</h1>
+			 <p class="text-top">Hello world!</p>
+			 <p class="testing">Are you learning CSS?</p>
+		 </section>
+	</body>
+</html>

@@ -1,0 +1,121 @@
+/*------- universal-selector -------*/
+/* {
+  text-align: center;
+  color: yellow;
+}
+/*------- id-selector -------*/
+#para1 {
+  text-align: center;
+  color: red;
+}
+/*------ class-selector -------*/
+.center {
+  text-align: center;
+  color: red;
+}
+/*------ element-with-class-selector -------*/
+p.specific-class {
+	text-align: center;
+	color: blue;
+}
+/*------ grouping-selector -------*/
+h3, h4, h5 {
+  color: orange;
+}
+/*------ element-selector -------*/
+span {
+  color: gray;
+}
+/*------ descendant-selector -------*/
+.descendant-selector > p {
+	background: yellow;
+}
+/*------ child-selector -------*/
+/*.child-selector > p {
+	background: orange;
+}*/
+/*------ adjacent-selector -------*/
+.adjacent-selector + p {
+  background-color: #ccc;
+}
+/*------ general-sibling-selector -------*/
+.general-sibling-selector ~ p {
+  background-color: #ff3468;
+}
+/*------ pesudo-class-selector ------*/
+.pesudo-class-selector a {
+	text-decoration: none;
+}
+/* unvisited link */
+.pesudo-class-selector a:link {
+  color: #825149;
+}
+/* visited link */
+.pesudo-class-selector a:visited {
+  color: green;
+}
+/* mouse over link */
+.pesudo-class-selector a:hover {
+  color: hotpink;
+}
+/* selected link */
+.pesudo-class-selector a:active {
+  background: blue;
+}
+/*------ pesudo-element-selector ------*/
+/*------ after ------*/
+.after-element p::after {
+	content:"-Dharumaraj K";
+}
+/*------ before ------*/
+.before-element p::before {
+	content:"Name:";
+}
+/*------ first-letter ------*/
+.first-letter-element p::first-letter {
+	color: #0af5bf;
+	font-size: 18px;
+}
+/*------ first-line ------*/
+.first-line-element p::first-line {
+	text-transform: capitalize;
+}
+/*------ marker ------*/
+::marker {
+	color: #c9dd26;
+}
+/*------ slection ------*/
+::selection {
+	color: green;
+	background: lightgray;
+}
+/*------ attribute-selector ------*/
+/*------ target ------*/
+.target a[target] {
+  background-color: yellow;
+}
+/*------ target_blank ------*/
+.target-blank a[target="_blank"] {
+  background-color: lightblue;
+}
+/*------ name="value" ------*/
+[title~="yes"] {
+  background-color: black;
+  color: white;
+}
+/*------ class="value" ------*/
+[class|=top] {
+  background: orange;
+}
+/*------ class="value" ------*/
+.class-value-1 [class^=top] {
+  background: pink;
+}
+/*------ class="value" ------*/
+.class-value-2 [class$=top] {
+  background: green;
+}
+/*------ class="value" ------*/
+.class-value-3 [class*="te"] {
+  background: lightpink;
+}
